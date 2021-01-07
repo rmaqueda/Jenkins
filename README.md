@@ -30,6 +30,7 @@ vi /Users/ricardomaqueda/Library/LaunchAgents/homebrew.mxcl.jenkins.plist
 ### Cocoapods
 ```
 sudo gem install cocoapods
+gem install cocoapods-keys
 ```
 
 ### Carthage
