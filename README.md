@@ -27,12 +27,12 @@ vi /Users/ricardomaqueda/Library/LaunchAgents/homebrew.mxcl.jenkins.plist
 ## Apache configuration
 [Reference](https://moduscreate.com/blog/securing-jenkins-on-mac-os-x-with-lets-encrypt/)
 
+
 ## Pipeline iOS Tools
 
 ### Cocoapods
 ```
 sudo gem install cocoapods
-gem install cocoapods-keys
 ```
 
 ### Carthage
@@ -50,3 +50,7 @@ brew install fastlane
 brew install sonar-scanner
 ```
 Copy xccov-to-sonarqube-generic.sh to a directory in $PATH
+
+### OTA tool
+
+Copy ota_ipa.sh to a directory in $PATH
