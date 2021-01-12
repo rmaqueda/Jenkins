@@ -24,6 +24,11 @@ brew services stop jenkins
 vi /Users/ricardomaqueda/Library/LaunchAgents/homebrew.mxcl.jenkins.plist
 ```
 
+## Apache configuration
+[Reference](https://moduscreate.com/blog/securing-jenkins-on-mac-os-x-with-lets-encrypt/)
+
+
+
 
 ## Pipeline iOS Tools
 
@@ -41,3 +46,9 @@ brew install carthage
 ```
 brew install fastlane
 ```
+
+### Sonar
+```
+brew install sonar-scanner
+```
+Copy xccov-to-sonarqube-generic.sh to a directory in $PATH
